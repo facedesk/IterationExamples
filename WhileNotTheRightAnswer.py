@@ -5,3 +5,8 @@ Keep asking
 '''
 
 
+mood = raw_input("How are you doing today?")
+if(mood == ""):
+	print("thats the right answer!")
+else:
+	print("thats the wrong answer!")
