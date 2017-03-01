@@ -11,6 +11,13 @@ firstnumber = int(raw_input("first number"))
 secondnumber = int(raw_input("second number"))
 thirdnumber = int(raw_input("third number"))
 
+while(firstnumber%3 !=0 and firstnumber%5!=0 and 
+secondnumber%3 !=0 and secondnumber%5!=0 and
+thirdnumber%3 !=0 and thirdnumber%5!=0):
+    firstnumber = int(raw_input("first number"))
+    secondnumber = int(raw_input("second number"))
+    thirdnumber = int(raw_input("third number"))
+
 #is each number divisble by 3 or 5
 if(firstnumber % 3 == 0 and firstnumber%5 ==0):
 	print(thirdnumber)
